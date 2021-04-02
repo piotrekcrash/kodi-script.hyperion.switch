@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+		<setting id="state" type="bool" default="true" label="State" visible="false"/>
+		<setting id="startup_notif" type="bool" default="true" label="Startup Notification"/>
+		<setting id="control_type" type="enum" label="Control Type" values="Last State|Cron" />
+		<setting label="Start" type="enum" id="start" values="$HOURS" />
+		<setting label="End" type="enum" id="end" values="$HOURS" />
+		<setting label="Brightness" type="slider" id="brightness" default="50" range="5,5,100" option="percent" />
+</settings>

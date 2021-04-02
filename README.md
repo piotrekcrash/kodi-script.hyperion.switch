@@ -1,1 +1,1 @@
-# kodi-script.hyperion.switch
+script.hyperion.switch
