@@ -12,12 +12,12 @@ icon = addon.getAddonInfo('icon')
 
 
 def turn_off():
-    os.system("hyperion-remote -L 0")
+    os.system("hyperion-remote -D LEDDEVICE -a 127.0.0.1")
     addon.setSetting('state', 'false')
 
 
 def turn_on():
-    os.system("hyperion-remote -L " + str(brightness))
+    os.system("hyperion-remote -E LEDDEVICE -a 127.0.0.1")
     addon.setSetting('state', 'true')
 
 
